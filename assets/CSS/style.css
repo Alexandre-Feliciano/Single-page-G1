@@ -1,0 +1,187 @@
+:root{
+    --verdeMusgo:#05a948;
+    --verde:#016767;
+    --laranja:#ff6701;
+    --vermelhoEscuro:#A71405;
+    --vermelho:#c4160d;
+    --azulClaro:#0569de;
+    --azulEscuro:#1d4c9a;
+    --branco:#ffffff;
+    --branco2:#fafafa;
+    --branco3:#f9f9f9;
+    --cinza:#E1E1E1;
+    ----cinzaEscuro:#a5a5a5;
+}
+
+@font-face {
+  font-family: 'Globo'; 
+  src: url('/assets/fonts/Globo-Tx-Bd.ttf') format('truetype');
+  font-weight: normal, lighter;
+  font-style: normal;
+}
+
+
+body{
+    background-color: var(--branco3);
+    font-family: 'Globo', sans-serif;
+}
+
+/* cabeçalho */
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--vermelho);
+    height: 100px;
+}
+
+#logo-header{
+    width: 150px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+#menu{
+    /* margin-top: 30px;
+    margin-left:20px; */
+    padding-top:30px;
+    padding-left:10px;
+    width: 150px;
+    height: 70px;
+}
+
+#menu-icon{
+    color: var(--branco);
+    margin-left: 10px;
+
+}
+
+span{
+    font-size: 25px;
+    color: var(--branco);
+    margin-left: 5px;
+}
+
+#inp-search{
+    display: flex;
+    border-radius: 5px;
+    margin-right:20px;
+    margin-top: 30px;
+    width: 250px;
+    height: 45px;
+    background-color: var(--vermelhoEscuro);
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: var(--vermelhoEscuro);
+    margin-left:20px;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    color: var(--branco);
+
+}
+
+input ::placeholder{
+    color: var(--branco);
+}
+
+#search-icon{
+    margin-left: 10px;
+    margin-top: 14px;
+    color: var(--branco);
+    size: 30px;
+}
+
+/* Conteúdo */
+
+main{
+    margin: 20px;
+    display: flex;
+
+}
+
+#box-1{
+    height: 650px;
+    width: 860px;
+    background-color: var(--branco);
+    border: solid 1px var(--cinza);
+    border-radius: 15px;
+    margin-right:15px ;
+    
+}
+
+#header-2{
+    margin: 30px;
+}
+
+#title-1{
+    margin: 30px;
+    font-size: 60px;
+    margin-top: 100px;
+    color:var(--vermelho);
+}
+
+p{
+    font-size: 20px;
+    margin: 75px 30px 0px 30px;
+}
+
+#box-2{
+    height: 650px;
+    width: 700px;
+
+
+}
+
+#image-1{
+    width: 720px;
+    border-radius: 15px;
+    height: 320px;
+    background-image: url("/assets/img/lagoaAzul.jpg");
+    background-position: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+#image-2{
+    width: 720px;
+    border-radius: 15px;
+    height: 320px;
+    background-image: url('/assets/img/macaco2.jpeg');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+#image-2:hover, #image-1:hover{
+    background-size: 110%;
+    background-position: center;
+
+}
+
+#header-noticia{
+    padding: 25px 10px 40px 20px;
+}
+
+#header-text{
+    color: var(--branco);
+
+}
+
+#noticia-text{
+    color: var(--branco);
+    font-size: 35px;
+    padding: 50px 10px 40px 20px;
+}
+
+ul{
+    color: var(--cinza);
+    padding-left:60px;
+}
