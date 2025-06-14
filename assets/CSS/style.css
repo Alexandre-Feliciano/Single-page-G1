@@ -2,15 +2,15 @@
     --verdeMusgo:#05a948;
     --verde:#016767;
     --laranja:#ff6701;
-    --vermelhoEscuro:#A71405;
-    --vermelho:#c4160d;
+    --red-dark:#A71405;
+    --red:#c4160d;
     --azulClaro:#0569de;
-    --azulEscuro:#1d4c9a;
-    --branco:#ffffff;
-    --branco2:#fafafa;
-    --branco3:#f9f9f9;
-    --cinza:#E1E1E1;
-    ----cinzaEscuro:#a5a5a5;
+    --azul-dark:#1d4c9a;
+    --white:#ffffff;
+    --white2:#fafafa;
+    --white3:#f9f9f9;
+    --gray:#E1E1E1;
+    --gray-dark:#a5a5a5;
 }
 
 @font-face {
@@ -22,17 +22,15 @@
 
 
 body{
-    background-color: var(--branco3);
+    background-color: var(--white3);
     font-family: 'Globo', sans-serif;
 }
-
-/* cabeçalho */
 
 #header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: var(--vermelho);
+    background-color: var(--red);
     height: 100px;
 }
 
@@ -52,14 +50,14 @@ body{
 }
 
 #menu-icon{
-    color: var(--branco);
+    color: var(--white);
     margin-left: 10px;
 
 }
 
 span{
     font-size: 25px;
-    color: var(--branco);
+    color: var(--white);
     margin-left: 5px;
 }
 
@@ -70,30 +68,30 @@ span{
     margin-top: 30px;
     width: 250px;
     height: 45px;
-    background-color: var(--vermelhoEscuro);
+    background-color: var(--red-dark);
 }
 
 input{
     width: 200px;
     height: 40px;
     border: none;
-    background-color: var(--vermelhoEscuro);
+    background-color: var(--red-dark);
     margin-left:20px;
     font-weight: bold;
     font-size: 15px;
     outline: none;
-    color: var(--branco);
+    color: var(--white);
 
 }
 
 input ::placeholder{
-    color: var(--branco);
+    color: var(--white);
 }
 
 #search-icon{
     margin-left: 10px;
     margin-top: 14px;
-    color: var(--branco);
+    color: var(--white);
     size: 30px;
 }
 
@@ -108,8 +106,8 @@ main{
 #box-1{
     height: 650px;
     width: 860px;
-    background-color: var(--branco);
-    border: solid 1px var(--cinza);
+    background-color: var(--white);
+    border: solid 1px var(--gray);
     border-radius: 15px;
     margin-right:15px ;
     
@@ -123,7 +121,7 @@ main{
     margin: 30px;
     font-size: 60px;
     margin-top: 100px;
-    color:var(--vermelho);
+    color:var(--red);
 }
 
 p{
@@ -171,17 +169,17 @@ p{
 }
 
 #header-text{
-    color: var(--branco);
+    color: var(--white);
 
 }
 
 #noticia-text{
-    color: var(--branco);
+    color: var(--white);
     font-size: 35px;
     padding: 50px 10px 40px 20px;
 }
 
 ul{
-    color: var(--cinza);
+    color: var(--gray);
     padding-left:60px;
 }
